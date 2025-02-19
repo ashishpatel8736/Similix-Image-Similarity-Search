@@ -39,7 +39,20 @@ cd similix
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Preprocessing Steps:
+
+- i.Feature Extraction:
+
+```sh
+python extract_features.py
+```
+- ii.Build FAISS Index:
+
+```sh
+python build_faiss_index.py
+```
+
+5. Run the application:
 
 ```sh
 streamlit run app.py
