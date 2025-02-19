@@ -41,12 +41,19 @@ pip install -r requirements.txt
 
 4. Preprocessing Steps:
 
-- i.Feature Extraction:
+- i.Preprocess the Dataset:
+
+```sh
+python preprocess.py
+```
+
+- ii.Feature Extraction:
 
 ```sh
 python extract_features.py
 ```
-- ii.Build FAISS Index:
+
+- iii.Build FAISS Index:
 
 ```sh
 python build_faiss_index.py
