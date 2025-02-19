@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Streamlit cache
+.streamlit/
+*.pyc
+
+# Logs and temp files
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.h5
+
+
+# Config files
+*.ini
+*.toml
+
+# Dataset and features
+dataset/
+features/*.idx
+features/*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
