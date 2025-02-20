@@ -55,3 +55,19 @@ if uploaded_file is not None:
     for i, (col, img_name) in enumerate(zip(cols, similar_images)):
         img_path = os.path.join("processed_dataset", img_name)
         col.image(img_path, caption=f"Match {i+1}", use_container_width=True)
+
+
+# Footer
+# Displaying main message
+st.markdown("<h2 style='text-align: center;'>Developed with ❤️ using Streamlit</h2>", unsafe_allow_html=True)
+
+# Adding a separator
+st.markdown("---")
+
+# Footer with developer and technology stack
+st.markdown("""
+<div style='text-align: center;'>
+    <p><strong>Developed by <a href='https://github.com/ashishpatel8736' target='_blank'>Ashish Patel</a></strong></p>
+    <p>Powered by <strong>Streamlit</strong></p>
+</div>
+""", unsafe_allow_html=True)
