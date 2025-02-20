@@ -1,5 +1,5 @@
 
-# Similix
+# Similix - Image Similarity Search 🔍
 
 Similix is an image similarity search application built using deep learning models for feature extraction, FAISS for similarity search, and Streamlit for the UI. The application allows users to upload an image and find the most similar images from a pre-processed dataset containing various objects like bikes, cars, cats, dogs, flowers, horses, and humans.
 
